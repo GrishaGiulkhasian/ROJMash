@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Container {
+    width: 100%;
+    height: 100vh;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative; /* Added to allow for absolute positioning of video */
+    overflow: hidden; /* Ensure overflow is hidden */
+}
+
+.backgroundVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure video is behind other content */
+}
+
+.ContentHeader {
+    display: grid;
+    grid-template-columns: 305px 965px 428px 219px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border-bottom: 1px solid #fbfbfb48;
+}
+
+.Logo {
+    width: 305px;
+    height: 120px;
+    background: url(../assets/foto/mash.png) center no-repeat;
+    border-right: 1px solid #fbfbfb48;
+}
+
+.shec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-left: 1px solid #fbfbfb48;
+}
+
+.shec img {
+    width: 18.75px;
+    height: 18.75px;
+    cursor: pointer;
+}
+
+.shec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-left: 1px solid #fbfbfb48;
+}
+
+.shec1 img {
+    width: 19px;
+    height: 28.24px;
+}
+
+.nav {
+    width: 865px;
+    height: 120px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #fbfbfb48;
+}
+
+.nav_link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px; 
+    color: #FBFBFB;   
+    padding-right: 100px;
+}
+
+.ContentHead {
+    display: grid;
+    grid-template-columns: 305px 965px 429px 219px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.textHead1 {
+    font-family: Montserrat;
+font-size: 128px;
+font-weight: 800;
+line-height: 122.88px;
+text-align: left;
+
+}
+
+.textHead {
+    padding: 429px 83px 75px 100px;
+    width: 781px;
+    height: 123px;
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-weight: 800;
+    border-left: 1px solid #fbfbfb48;
+    border-right: 1px solid #fbfbfb48;
+    color: #FBFBFB;
+}
+
+
+.textHead .highlight {
+    color: #22B24C;
+}
+
+.punkt {
+    padding: 101px 96px 0px 87px;
+    border-right: 1px solid #fbfbfb48;
+}
+
+.punkt1 {
+    width: 186px;
+    height: 92px;
+    margin-bottom: 75px;
+    cursor: pointer;
+}
+
+.punkt2 {
+    width: 253px;
+    height: 92px;
+    margin-bottom: 75px;
+    cursor: pointer;
+}
+
+.punkt3 {
+    width: 245px;
+    height: 92px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.punkt_inner {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    padding-bottom: 15px;
+    color: #22B24C;
+}
+
+.punkt_title {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    color: #FBFBFB;
+}
+
+.ContentFoot {
+    display: grid;
+    grid-template-columns: 305px 965px 429px 219px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border-top: 1px solid #fbfbfb48;
+}
+
+.menu {
+    width: 305px;
+    height: 244px;
+    border-right: 1px solid #fbfbfb48;
+}
+
+.menu div {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    color: #FBFBFB;
+    padding-top: 25px;
+    padding-left: 90px;
+}
+
+.set {
+    margin-top: 50px;
+}
+
+.textBlock1Highlight1 {
+    padding: 55px 236px 0px 100px;
+}
+
+.textBlock1Highlight {
+    width: 429px;
+}
+
+.textBlock01Highlight {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: left;
+    color: #22B24C;
+}
+
+.textBlock001Highlight {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: #FBFBFB;
+}
+
+.textBlock01Rest {
+    width: 629px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    color: #FBFBFB;
+}
+
+.textBlock2Highlight2 {
+    padding: 55px 236px 0px 100px;
+}
+
+.textBlock2Highlight {
+    width: 649px;
+}
+
+.textBlock02Highlight {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: left;
+    color: #22B24C;
+}
+
+.textBlock002Highlight {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: left;
+    color: #FBFBFB;
+}
+
+.textBlock02Rest {
+    width: 629px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    color: #FBFBFB;
+}
+
+.textBlock03 {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    color: #1b1212;
+}
+
+.buttonContainer {
+    width: 428px;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid #fbfbfb48;
+    border-right: 1px solid #fbfbfb48;
+}
+
+.animatedButton {
+    margin-top: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Change to align text to the left */
+    width: 289px;
+    height: 60px;
+    padding: 20px 35px 20px 45px;
+    border: 2px solid #FBFBFB; /* Initial border color set to white */
+    border-radius: 15px;
+    background-color: transparent;
+    color: #FBFBFB;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 0.3s, border-color 0.3s; /* Add transition for border color */
+}
+
+.animatedButton::before {
+    content: '>';
+    position: absolute;
+    left: 2px; /* Adjusted to move the square 2px from the border */
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #22B24C;
+    background-color: #22B24C;
+    color: #FFFFFF;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.animatedButton span {
+    transition: transform 0.3s; /* Add transition for text movement */
+    padding-left: 20px; /* Initial padding to keep the text 20px to the right of the button */
+}
+
+.animatedButton:hover {
+    background-color: #22B24C;
+    border-color: #22B24C; /* Change border color on hover */
+}
+
+.animatedButton:hover::before {
+    transform: translateX(230px);
+    background-color: #FFFFFF;
+    color: #22B24C;
+    border-color: #FFFFFF;
+}
+
+.animatedButton:hover span {
+    transform: translateX(-50px); /* Move text left when hovered */
+}
+
+.menuContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+    transition: height 0.3s ease;
+    z-index: 999;
+}
+
+.menuContainer.open {
+    height: 50%;
+}
+
+.menuContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menuHeader {
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 130px;
+}
+
+.menuCloseIcon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 1575px;
+}
+
+.logoClon {
+    width: 138px;
+    height: 27px;
+}
+
+.menuBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+.searchInput {
+    width: 1700px;
+    height: 40px;
+    padding: 10px 0px 10px 50px;
+    margin-bottom: 20px;
+    border: 1px solid #fbfbfb41;
+    border-radius: 15px;
+    background-color: transparent;
+    color: #fbfbfb41;
+}
+
+.menuLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menuColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menuColumn h3 {
+    color: #FBFBFB;
+    margin-bottom: 35px;
+}
+
+.menuColumn a {
+    color: #fbfbfb57;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.menuColumn span {
+    color: #fbfbfb57;
+    margin-bottom: 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.icon-whatsapp, .icon-telegram, .icon-email {
+    font-size: 20px;
+    color: #FBFBFB;
+}
+
+/* Стиль для кастомного курсора */
+.custom-cursor {
+    position: absolute;
+    pointer-events: none;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(31, 30, 30, 0.5);
+    border-radius: 50%;
+    border: 1px solid #22B24C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.cursor-hover {
+    opacity: 1;
+}
