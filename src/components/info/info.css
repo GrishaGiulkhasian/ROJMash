@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.conterInfo {
+    display: grid;
+    grid-template-columns: 306px 1380px 219px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.conterInfo1 {
+    height: 1200px;
+    border-right: 1px solid rgba(16, 16, 16, 0.25);
+}
+
+.conterInfo2 {
+    padding-left: 100px;
+    margin-top: 100px;
+}
+
+.menu3 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    padding: 762px 92px 0px 100px;
+    color: #101010;
+}
+
+.me3 {
+    padding-top: 25px;
+}
+
+.name {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.76px;
+}
+.name span {
+    color: #22B24C;
+}
+
+.bloc1 {
+    margin-top: 50px;
+    display: flex;
+    width: 1236px;
+    height: 300px;
+    border: 1px solid rgba(16, 16, 16, 0.25);
+    border-radius: 35px;
+}
+
+.fotoo {
+    position: absolute;
+    width: 525px;
+    height: 250px;
+    margin: 25px 0px 25px 25px;
+}
+
+.bloc1_inner {
+    width: 611px;
+    height: 250px;
+    padding-left: 600px;
+    margin-top: 60px;
+}
+
+.bloc1_title {
+    margin-right: 25px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: #22B24C;
+}
+
+.bloc1_title1 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+}
+
+.bloc1_title1 span {
+    color: #22B24C;
+}
+
+.bloc1_title01 {
+    padding-top: 15px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+}
+
+.bloc1_title01 span {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+}
+
+.bloc1_title001 {
+    padding-top: 15px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+}
+
+.bloc1_title001 span {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+}
+
+.bloc2 {
+    margin-top: 20px;
+    display: flex;
+    width: 1236px;
+    height: 300px;
+    border: 1px solid rgba(16, 16, 16, 0.25);
+    border-radius: 35px;
+}
+
+.fotoo1 {
+    position: absolute;
+    width: 525px;
+    height: 250px;
+    margin: 25px 25px 25px 685px;
+}
+
+.bloc2_inner {
+    width: 611px;
+    height: 250px;
+    padding-left: 50px;
+    margin-top: 60px;
+}
+
+.bloc2_title {
+    margin-right: 25px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: #22B24C;
+}
+
+.bloc2_title2 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+}
+
+.bloc2_title2 span {
+    color: #22B24C;
+}
+
+.bloc2_title02 {
+    padding-top: 15px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+}
+
+.bloc2_title02 span {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+}
+
+.bloc2_title002 {
+    padding-top: 15px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+}
+
+.bloc2_title002 span {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+}
+.bloc3 {
+    margin-top: 20px;
+    display: flex;
+    width: 1236px;
+    height: 300px;
+    border: 1px solid rgba(16, 16, 16, 0.25);
+    border-radius: 35px;
+}
+
+.fotoo3 {
+    position: absolute;
+    width: 525px;
+    height: 250px;
+    margin: 25px 0px 25px 25px;
+}
+
+.bloc3_inner {
+    width: 611px;
+    height: 250px;
+    padding-left: 600px;
+    margin-top: 60px;
+}
+
+.bloc3_title {
+    margin-right: 25px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: #22B24C;
+}
+
+.bloc3_title3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+}
+
+.bloc3_title3 span {
+    color: #22B24C;
+}
+
+.bloc3_title03 {
+    padding-top: 15px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+}
+
+.bloc3_title03 span {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+}
+
+.bloc3_title003 {
+    padding-top: 15px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+}
+
+.bloc3_title003 span {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+}
+
+.conterInfo3 {
+    margin-left: 13px;
+    height: 1200px;
+    border-left: 1px solid rgba(16, 16, 16, 0.25);
+}
+
+.border1 {
+    position: relative;
+    width: 1px;
+    height: 3392px;
+    background-color: rgba(16, 16, 16, 0.10);
+}
+
+.border2 {
+    position: relative;
+    width: 1px;
+    height: 3392px;
+    background-color: rgba(16, 16, 16, 0.10);
+}
+
+/* info.css */
+
+/* Добавляем стили для анимации бордера */
+.bloc1, .bloc2, .bloc3 {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    width: 1236px;
+    height: 300px;
+    border: 1px solid rgba(16, 16, 16, 0.25);
+    border-radius: 35px;
+    overflow: hidden;
+    transition: border-color 0.6s ease; /* Сделаем анимацию медленнее */
+}
+
+.bloc1::before, .bloc1::after, .bloc2::before, .bloc2::after, .bloc3::before, .bloc3::after {
+    content: '';
+    position: absolute;
+    background: #22B24C;
+    transition: 0.6s;
+    border-radius: 35px;
+}
+
+.bloc1::before, .bloc2::before, .bloc3::before {
+    height: 2px;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+
+.bloc1::after, .bloc2::after, .bloc3::after {
+    width: 2px;
+    height: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.bloc1:hover::before, .bloc2:hover::before, .bloc3:hover::before {
+    width: 100%;
+    transition-delay: 0s;
+}
+
+.bloc1:hover::after, .bloc2:hover::after, .bloc3:hover::after {
+    height: 100%;
+    transition-delay: 0.6s;
+}
+
+.bloc1::after {
+    bottom: 0;
+    right: 0;
+    height: 0;
+    transition: 0.6s;
+}
+
+.bloc1:hover::after {
+    height: 100%;
+    transition-delay: 0.6s;
+}
+
+.bloc1::before {
+    top: 0;
+    left: 0;
+    width: 0;
+    transition: 0.6s;
+}
+
+.bloc1:hover::before {
+    width: 100%;
+    transition-delay: 0s;
+}
+
+.bloc2:hover::before, .bloc3:hover::before {
+    width: 100%;
+}
+
+.bloc2:hover::after, .bloc3:hover::after {
+    height: 100%;
+}
+
+/* Для анимации по кругу с учетом border-radius */
+.bloc1:hover .border-anim, .bloc2:hover .border-anim, .bloc3:hover .border-anim {
+    animation: animate-border 3s linear infinite;
+    opacity: 1;
+}
+
+.border-anim {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+    box-shadow: inset 0 0 0 2px #22B24C;
+    clip-path: polygon(
+        0% 0%, 100% 0%, 100% 50%, 0 50%, 0 0%,
+        50% 0, 50% 100%, 100% 100%, 100% 50%
+    );
+    animation: none;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+@keyframes animate-border {
+    0% {
+        clip-path: polygon(
+            0% 0%, 0% 0%, 0% 0%, 0 0%, 0 0%,
+            0 0%, 0 0%, 0 0%, 0 0%
+        );
+    }
+    25% {
+        clip-path: polygon(
+            0% 0%, 100% 0%, 100% 0%, 0 0%, 0 0%,
+            0 0%, 0 0%, 0 0%, 0 0%
+        );
+    }
+    50% {
+        clip-path: polygon(
+            0% 0%, 100% 0%, 100% 100%, 0 100%, 0 100%,
+            0 100%, 0 100%, 0 100%, 0 100%
+        );
+    }
+    75% {
+        clip-path: polygon(
+            0% 0%, 100% 0%, 100% 100%, 0 100%, 0 100%,
+            0 100%, 0 100%, 0 100%, 0 100%
+        );
+    }
+    100% {
+        clip-path: polygon(
+            0% 0%, 0% 0%, 0% 0%, 0 0%, 0 0%,
+            0 0%, 0 0%, 0 0%, 0 0%
+        );
+    }
+}
+
+.bloc1_inner, .bloc2_inner, .bloc3_inner {
+    width: 611px;
+    height: 250px;
+    padding-left: 50px;
+    margin-top: 60px;
+}
+
+.bloc1_inner {
+    padding-left: 600px;
+}
+
+.bloc2_inner {
+    padding-left: 50px;
+}
+
+.bloc3_inner {
+    padding-left: 600px;
+}

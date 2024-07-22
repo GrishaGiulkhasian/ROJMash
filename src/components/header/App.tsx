@@ -8,6 +8,7 @@ import Messeng from '../assets/foto/messeng.png';
 import Telegramm from '../assets/foto/telegramm.png';
 import Wotcapp from '../assets/foto/wotcapp.png';
 import BackgroundVideo from '../assets/vedeo/vedeo.mp4';
+import useCustomCursor from '../useCustomCursor';
 
 
 const TextBlock01: React.FC<{ text: string }> = ({ text }) => {
@@ -162,36 +163,9 @@ export const App: React.FC = () => {
 
     const selectedContent = content.find(item => item.id === contentIndex);
 
-    // Добавьте этот useEffect для управления кастомным курсором
-    useEffect(() => {
-        const customCursor = document.createElement('div');
-        customCursor.classList.add('custom-cursor');
-        customCursor.innerText = 'CLIK';
-        document.body.appendChild(customCursor);
+  //  Добавьте этот useEffect для управления кастомным курсором
+  useCustomCursor();
 
-        const moveCursor = (e: MouseEvent) => {
-            customCursor.style.left = `${e.clientX}px`;
-            customCursor.style.top = `${e.clientY}px`;
-        };
-
-        const handleHover = (e: MouseEvent) => {
-            const target = e.target as HTMLElement;
-            if (target.closest('a') || target.closest('button') || window.getComputedStyle(target).cursor === 'pointer') {
-                customCursor.classList.add('cursor-hover');
-            } else {
-                customCursor.classList.remove('cursor-hover');
-            }
-        };
-
-        window.addEventListener('mousemove', moveCursor);
-        window.addEventListener('mouseover', handleHover);
-
-        return () => {
-            window.removeEventListener('mousemove', moveCursor);
-            window.removeEventListener('mouseover', handleHover);
-            document.body.removeChild(customCursor);
-        };
-    }, []);
 
     return (
         <div className="Container">

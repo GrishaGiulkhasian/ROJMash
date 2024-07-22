@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './components/header/App';
 import reportWebVitals from './reportWebVitals';
+import Link from './components/link/link';
+import Info from './components/info/info';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -10,6 +12,8 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
+    <Link />
+    <Info />
   </React.StrictMode>
 );
 
